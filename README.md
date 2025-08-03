@@ -1,4 +1,4 @@
-2025 yılı Tipli Öğrenciler 4. Geleneksel Gençlik Kampı "Direniş" için 31 Temmuz-3 Ağustos tarihlerinde kollektif olarak bizim tarafımızdan geliştirilmiştir:<br>
+2025 yılı Tipli Öğrenciler 4. Geleneksel Gençlik Kampı "Direniş" için 31 Ağustos-3 Temmuz tarihlerinde kollektif olarak bizim tarafımızdan geliştirilmiştir:<br>
 asy<br>
 kamil<br>
 uğur<br>
