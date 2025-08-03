@@ -7,9 +7,9 @@ inan<br>
 ulaş<br>
 özgür<br>
 teoman<br>
+yasin<br>
 sinan<br>
 yaren<br>
 berke<br>
 ekin<br>
 barış<br>
-yasin<br>
