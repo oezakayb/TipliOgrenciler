@@ -1,0 +1,34 @@
+[gd_scene load_steps=6 format=3 uid="uid://d4kms84vxhcp8"]
+
+[ext_resource type="Texture2D" uid="uid://bfc65lh6krpft" path="res://Başlıksız21_20250802170821.png" id="1_pjt0s"]
+[ext_resource type="Script" uid="uid://cs86uhg3s6eyq" path="res://oyuncu.gd" id="1_wa5vi"]
+[ext_resource type="Texture2D" uid="uid://chapp070i3yjb" path="res://Başlıksız22_20250802174129.png" id="2_wa5vi"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_wfnr8"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_pjt0s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_wa5vi")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_px5sl"]
+size = Vector2(203, 484)
+
+[node name="CharacterBody2D" type="CharacterBody2D"]
+script = ExtResource("1_wa5vi")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_wfnr8")
+autoplay = "default"
+frame_progress = 0.715425
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(52.5, 143)
+shape = SubResource("RectangleShape2D_px5sl")

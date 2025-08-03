@@ -1,0 +1,62 @@
+[gd_scene load_steps=9 format=3 uid="uid://t5kidv8ceydr"]
+
+[ext_resource type="Script" uid="uid://dnx0lpck6penj" path="res://polis.gd" id="1_fvird"]
+[ext_resource type="Texture2D" uid="uid://bycrlvjn5r1o6" path="res://poliskosma.png" id="1_xny6n"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fvird"]
+atlas = ExtResource("1_xny6n")
+region = Rect2(88, 616, 234, 407)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rwi0f"]
+atlas = ExtResource("1_xny6n")
+region = Rect2(322, 616, 234, 407)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3y2qf"]
+atlas = ExtResource("1_xny6n")
+region = Rect2(556, 616, 234, 407)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_x34bl"]
+atlas = ExtResource("1_xny6n")
+region = Rect2(790, 616, 234, 407)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_fd4mj"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fvird")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rwi0f")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3y2qf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_x34bl")
+}],
+"loop": true,
+"name": &"default",
+"speed": 8.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_xny6n"]
+size = Vector2(93, 253)
+
+[node name="poliskosma" type="Area2D"]
+z_index = 3
+position = Vector2(0, -70)
+scale = Vector2(1.3, 1.3)
+script = ExtResource("1_fvird")
+hareket_hizi = 12.0
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+scale = Vector2(0.8, 0.8)
+sprite_frames = SubResource("SpriteFrames_fd4mj")
+autoplay = "default"
+frame_progress = 0.00535227
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-8.5, -8.5)
+shape = SubResource("RectangleShape2D_xny6n")
+
+[connection signal="body_entered" from="." to="." method="carpinca"]

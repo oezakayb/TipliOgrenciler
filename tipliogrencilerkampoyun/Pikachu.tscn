@@ -1,0 +1,66 @@
+[gd_scene load_steps=10 format=3 uid="uid://5xrlya8ctmxb"]
+
+[ext_resource type="Texture2D" uid="uid://dbkiinflyae5v" path="res://pikachu.png" id="1_8jmog"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8jmog"]
+atlas = ExtResource("1_8jmog")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1l2gm"]
+atlas = ExtResource("1_8jmog")
+region = Rect2(16, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ls7q5"]
+atlas = ExtResource("1_8jmog")
+region = Rect2(32, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8msik"]
+atlas = ExtResource("1_8jmog")
+region = Rect2(48, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jgju5"]
+atlas = ExtResource("1_8jmog")
+region = Rect2(64, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_12g4j"]
+atlas = ExtResource("1_8jmog")
+region = Rect2(80, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yux78"]
+atlas = ExtResource("1_8jmog")
+region = Rect2(96, 0, 16, 16)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_gfdik"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8jmog")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1l2gm")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ls7q5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8msik")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jgju5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_12g4j")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_yux78")
+}],
+"loop": true,
+"name": &"default",
+"speed": 21.0
+}]
+
+[node name="CharacterBody2D" type="AnimatedSprite2D"]
+sprite_frames = SubResource("SpriteFrames_gfdik")
+autoplay = "default"
+frame_progress = 0.498175
+flip_h = true

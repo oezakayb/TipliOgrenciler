@@ -1,0 +1,27 @@
+[gd_scene load_steps=4 format=3 uid="uid://cejknsuskf1jo"]
+
+[ext_resource type="Script" uid="uid://dgilpgfw3ovk0" path="res://label.gd" id="1_i3osk"]
+[ext_resource type="Script" path="res://metre.gd" id="2_02dvo"]
+[ext_resource type="FontFile" uid="uid://dwexba6ftkkda" path="res://PixelOperator8.ttf" id="2_06tve"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_i3osk")
+
+[node name="Metre" type="Timer" parent="."]
+autostart = true
+script = ExtResource("2_02dvo")
+
+[node name="DirenisLabel" type="Label" parent="Metre"]
+anchors_preset = -1
+anchor_left = -0.081
+anchor_top = -0.195
+offset_left = -97.0
+offset_top = -122.0
+offset_right = -42.0
+offset_bottom = -99.0
+theme_override_fonts/font = ExtResource("2_06tve")
+theme_override_font_sizes/font_size = 50

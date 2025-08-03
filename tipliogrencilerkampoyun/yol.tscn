@@ -1,0 +1,8 @@
+[gd_scene load_steps=3 format=3 uid="uid://d0ckhegweol5t"]
+
+[ext_resource type="Texture2D" uid="uid://c1kil3vs6ae0c" path="res://şehir/PNG/City2/Bright/road&lamps.png" id="1_deobc"]
+[ext_resource type="Script" uid="uid://b2xi2skkue30n" path="res://arkaplan.gd" id="2_5tdet"]
+
+[node name="yol_A" type="Sprite2D"]
+texture = ExtResource("1_deobc")
+script = ExtResource("2_5tdet")

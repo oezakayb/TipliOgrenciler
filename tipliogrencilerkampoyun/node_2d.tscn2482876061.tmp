@@ -1,0 +1,88 @@
+[gd_scene load_steps=15 format=3 uid="uid://bk8a0ost44qic"]
+
+[ext_resource type="Texture2D" uid="uid://t1164cecu2sa" path="res://şehir/PNG/City2/Bright/back.png" id="1_q6r6c"]
+[ext_resource type="PackedScene" uid="uid://d0ckhegweol5t" path="res://yol.tscn" id="1_wtcfe"]
+[ext_resource type="Texture2D" uid="uid://db3c8p041drcr" path="res://şehir/PNG/City2/Bright/minishop&callbox.png" id="2_0hol4"]
+[ext_resource type="Script" uid="uid://b2xi2skkue30n" path="res://arkaplan.gd" id="2_epypp"]
+[ext_resource type="Texture2D" uid="uid://bon6xclmnjm0y" path="res://şehir/PNG/City2/Bright/Sky.png" id="5_kdubu"]
+[ext_resource type="Texture2D" uid="uid://co70haquhbdye" path="res://şehir/PNG/City1/Pale/wall1.png" id="6_kdubu"]
+[ext_resource type="Script" uid="uid://bmxeuwm3abaos" path="res://obje.gd" id="6_rj586"]
+[ext_resource type="Texture2D" uid="uid://dmpxfhhemhlyd" path="res://şehir/PNG/City1/Bright/wheels&hydrant.png" id="7_d21ai"]
+[ext_resource type="Texture2D" uid="uid://cn40vnnwxv6fw" path="res://şehir/PNG/City3/Bright/Map_Clean.png" id="9_4d7sh"]
+[ext_resource type="Texture2D" uid="uid://ceb3trup5mb2t" path="res://şehir/PNG/City3/Bright/StopSign_Clean.png" id="11_nr8wp"]
+[ext_resource type="Texture2D" uid="uid://ctf0jm7vn5mcu" path="res://şehir/PNG/City3/Bright/VendingMachine_Clean.png" id="12_d2bti"]
+[ext_resource type="PackedScene" uid="uid://d4kms84vxhcp8" path="res://character.tscn" id="13_0h7mo"]
+[ext_resource type="Texture2D" uid="uid://bye1dj5bmx8f0" path="res://şehir/PNG/City3/Bright/Clock_Clean.png" id="13_ta5nu"]
+
+[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_0h7mo"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Camera2D" type="Camera2D" parent="."]
+zoom = Vector2(0.6, 0.6)
+
+[node name="Cevre" type="Node" parent="."]
+
+[node name="Back" type="Sprite2D" parent="Cevre"]
+z_index = -3
+texture = ExtResource("1_q6r6c")
+script = ExtResource("2_epypp")
+hareket_hizi = 3.0
+
+[node name="Back2" type="Sprite2D" parent="Cevre"]
+z_index = -3
+position = Vector2(1920, 0)
+texture = ExtResource("1_q6r6c")
+script = ExtResource("2_epypp")
+hareket_hizi = 3.0
+
+[node name="yol_A2" parent="Cevre" instance=ExtResource("1_wtcfe")]
+position = Vector2(1920, 0)
+hareket_hizi = 8.0
+
+[node name="yol_A" parent="Cevre" instance=ExtResource("1_wtcfe")]
+hareket_hizi = 8.0
+
+[node name="Sky2" type="Sprite2D" parent="Cevre"]
+z_index = -10
+position = Vector2(1920, 0)
+texture = ExtResource("5_kdubu")
+script = ExtResource("2_epypp")
+hareket_hizi = 1.0
+
+[node name="Sky" type="Sprite2D" parent="Cevre"]
+z_index = -10
+texture = ExtResource("5_kdubu")
+script = ExtResource("2_epypp")
+hareket_hizi = 1.0
+
+[node name="Wall1" type="Sprite2D" parent="Cevre"]
+z_index = -2
+texture = ExtResource("6_kdubu")
+script = ExtResource("2_epypp")
+hareket_hizi = 8.0
+
+[node name="Wall2" type="Sprite2D" parent="Cevre"]
+z_index = -2
+position = Vector2(1920, 0)
+texture = ExtResource("6_kdubu")
+script = ExtResource("2_epypp")
+hareket_hizi = 8.0
+
+[node name="Spawn" type="Timer" parent="Cevre"]
+autostart = true
+script = ExtResource("6_rj586")
+arkaplan_nesneleri = Array[Texture]([ExtResource("7_d21ai"), ExtResource("2_0hol4"), ExtResource("9_4d7sh"), ExtResource("11_nr8wp"), ExtResource("12_d2bti"), ExtResource("13_ta5nu")])
+
+[node name="Oyuncu" parent="." instance=ExtResource("13_0h7mo")]
+z_index = 5
+position = Vector2(-352, 168)
+scale = Vector2(0.8, 0.8)
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(-322, 479)
+shape = SubResource("WorldBoundaryShape2D_0h7mo")
+
+[connection signal="timeout" from="Cevre/Spawn" to="Cevre/Spawn" method="zaman_dolunca"]

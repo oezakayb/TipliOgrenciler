@@ -1,0 +1,22 @@
+[gd_scene load_steps=6 format=3 uid="uid://kp8uk3p5qxc4"]
+
+[ext_resource type="Texture2D" uid="uid://ss1alsr14wyx" path="res://DEÜ Çöp.png" id="1_k3yev"]
+[ext_resource type="Script" uid="uid://bcylth13v3w75" path="res://cop_konteyneri.gd" id="2_07jcw"]
+[ext_resource type="Texture2D" uid="uid://d4hpr20aiswtw" path="res://ODTÜ Çöp.png" id="3_8l2o1"]
+[ext_resource type="Texture2D" uid="uid://cxjicpj1ch3os" path="res://İÜ Çöp.png" id="4_w7r3t"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_rj586"]
+size = Vector2(402, 3155)
+
+[node name="konteyner" type="Sprite2D"]
+texture = ExtResource("1_k3yev")
+script = ExtResource("2_07jcw")
+konteynerler = Array[Texture2D]([ExtResource("1_k3yev"), ExtResource("3_8l2o1"), ExtResource("4_w7r3t")])
+
+[node name="alan" type="Area2D" parent="."]
+
+[node name="sekil" type="CollisionShape2D" parent="alan"]
+position = Vector2(0, -1363.5)
+shape = SubResource("RectangleShape2D_rj586")
+
+[connection signal="body_entered" from="alan" to="." method="oyuncu_degdi"]

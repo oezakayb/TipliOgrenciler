@@ -1,0 +1,22 @@
+[gd_scene load_steps=4 format=3 uid="uid://cjohh2h1vy74"]
+
+[ext_resource type="Script" uid="uid://dnx0lpck6penj" path="res://polis.gd" id="1_kfcny"]
+[ext_resource type="Texture2D" uid="uid://du80t3nl10wks" path="res://barikat.png" id="1_pfgbg"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_pfgbg"]
+size = Vector2(27.8, 14.9)
+
+[node name="barikat" type="Area2D"]
+z_index = 3
+position = Vector2(0, -35)
+scale = Vector2(10, 10)
+script = ExtResource("1_kfcny")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_pfgbg")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(1.1, -0.45)
+shape = SubResource("RectangleShape2D_pfgbg")
+
+[connection signal="body_entered" from="." to="." method="carpinca"]

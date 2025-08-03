@@ -1,0 +1,56 @@
+[gd_scene load_steps=8 format=3 uid="uid://dlg3fmpsdiicx"]
+
+[ext_resource type="Script" uid="uid://dnx0lpck6penj" path="res://polis.gd" id="1_m71hs"]
+[ext_resource type="Texture2D" uid="uid://c7323jloyj85i" path="res://polisaraba.png" id="1_uj5l1"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_m71hs"]
+atlas = ExtResource("1_uj5l1")
+region = Rect2(512, 232, 511, 264)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_l3x68"]
+atlas = ExtResource("1_uj5l1")
+region = Rect2(512, 496, 511, 264)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_edrd0"]
+atlas = ExtResource("1_uj5l1")
+region = Rect2(512, 760, 511, 264)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_yuyy7"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_m71hs")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_l3x68")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_edrd0")
+}],
+"loop": true,
+"name": &"default",
+"speed": 4.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_uj5l1"]
+size = Vector2(418, 280)
+
+[node name="polisarabasi" type="Area2D"]
+position = Vector2(0, -73)
+scale = Vector2(1.5, 1.5)
+script = ExtResource("1_m71hs")
+hareket_hizi = 20.0
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+z_index = 3
+position = Vector2(0, -50)
+sprite_frames = SubResource("SpriteFrames_yuyy7")
+autoplay = "default"
+frame_progress = 0.235508
+flip_h = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(14, -30)
+shape = SubResource("RectangleShape2D_uj5l1")
+
+[connection signal="body_entered" from="." to="." method="carpinca"]

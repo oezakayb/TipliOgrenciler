@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://d1jpfsgw5q3bh"]
+
+[ext_resource type="Texture2D" uid="uid://na4v0hbseck" path="res://şehir/PNG/City2/Bright/houses3.png" id="1_35blp"]
+[ext_resource type="Script" path="res://arkaplan.gd" id="2_gbuth"]
+
+[node name="arkaplan_binalar" type="Sprite2D"]
+z_index = -1
+scale = Vector2(1.54219, 2.00648)
+texture = ExtResource("1_35blp")
+script = ExtResource("2_gbuth")

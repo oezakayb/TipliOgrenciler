@@ -1,0 +1,23 @@
+[gd_scene load_steps=4 format=3 uid="uid://basasq51wibc6"]
+
+[ext_resource type="Texture2D" uid="uid://d4hpr20aiswtw" path="res://ODTÜ Çöp.png" id="1_y32ar"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_x3nig"]
+atlas = ExtResource("1_y32ar")
+region = Rect2(0, 0, 490, 490)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_ypxfh"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_x3nig")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D"]
+sprite_frames = SubResource("SpriteFrames_ypxfh")
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="."]
