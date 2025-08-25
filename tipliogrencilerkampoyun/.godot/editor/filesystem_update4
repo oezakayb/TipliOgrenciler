@@ -1,9 +1,5 @@
 res://node_2d.tscn
-res://arkaplan.gd
 res://arkaplan_nesnesi.tscn
 res://label.tscn
 res://ui/GameOverOverlay.tscn
 res://arkaplan_binalar.tscn
-res://obje.gd
-res://tutorial_text.gd
-res://Game.gd

@@ -1,5 +1,5 @@
-ea4bc82a6ad023ab7ee23ee620429895
-::res://::1756077192
+fc8a56933c4b1c8d796fdb8f7a9f9475
+::res://::1756131435
 1.png::CompressedTexture2D/CompressedTexture2D::254397998741314335::1754235029::1754235029::1::::<><><>0<>0<>30748089d54dff9f5469d8903cddcc51<>res://.godot/imported/1.png-515c813a180ba5fd2e61c8e75c4cac47.ctex::
 2.png::CompressedTexture2D/CompressedTexture2D::4077807014711255011::1754235029::1754235029::1::::<><><>0<>0<>2899bfd461fd1e0be52f17a39a012110<>res://.godot/imported/2.png-3f238cfe6181f9f93f40cee36336f408.ctex::
 3.png::CompressedTexture2D/CompressedTexture2D::5292180408922081302::1754235029::1754235029::1::::<><><>0<>0<>0cb99153fcfaca3e96747149a8f59ad4<>res://.godot/imported/3.png-ab9dc1e38b41816b4ae4b69d0cb53034.ctex::
@@ -9,8 +9,8 @@ ea4bc82a6ad023ab7ee23ee620429895
 7.png::CompressedTexture2D/CompressedTexture2D::4127081786753347853::1754235029::1754235029::1::::<><><>0<>0<>7c20f50c0ca6512272fe2fe855408fd5<>res://.godot/imported/7.png-e72809ab7ccd112ddfd11a481f421ba8.ctex::
 20ab692e87f9b4b.png::CompressedTexture2D/CompressedTexture2D::2759033636446130843::1754235029::1754235029::1::::<><><>0<>0<>53d0172918ee1b4a9c6b193c41a3252a<>res://.godot/imported/20ab692e87f9b4b.png-9f4f1e51db8ea2fce2950a3d436e2209.ctex::
 arkaplan.gd::GDScript::4329535063990532335::1756066003::0::1::::<>Sprite2D<><>0<>0<><>::
-arkaplan_binalar.tscn::PackedScene::9003672025045164345::1756071376::0::1::::<><><>0<>0<><>::uid://na4v0hbseck::::res://şehir/PNG/City2/Bright/houses3.png<>uid://b2xi2skkue30n::::res://arkaplan.gd
-arkaplan_nesnesi.tscn::PackedScene::8217341480071635156::1756071376::0::1::::<><><>0<>0<><>::uid://dmpxfhhemhlyd::::res://şehir/PNG/City1/Bright/wheels&hydrant.png<>uid://b2xi2skkue30n::::res://arkaplan.gd
+arkaplan_binalar.tscn::PackedScene::9003672025045164345::1756078379::0::1::::<><><>0<>0<><>::uid://na4v0hbseck::::res://şehir/PNG/City2/Bright/houses3.png<>uid://b2xi2skkue30n::::res://arkaplan.gd
+arkaplan_nesnesi.tscn::PackedScene::8217341480071635156::1756078379::0::1::::<><><>0<>0<><>::uid://dmpxfhhemhlyd::::res://şehir/PNG/City1/Bright/wheels&hydrant.png<>uid://b2xi2skkue30n::::res://arkaplan.gd
 barikat.png::CompressedTexture2D/CompressedTexture2D::8632716735899082310::1754235029::1754235029::1::::<><><>0<>0<>c64f59b07cf9edec695aff49f9017753<>res://.godot/imported/barikat.png-3d3c82f49407ab7d4a57eb3ba277c9f5.ctex::
 barikat.tscn::PackedScene/PackedScene::159820035245484709::1754235029::0::1::::<><><>0<>0<><>::uid://dnx0lpck6penj::::res://polis.gd<>uid://du80t3nl10wks::::res://barikat.png
 Başlıksız21_20250802170821.png::CompressedTexture2D/CompressedTexture2D::2743430047977319489::1754235029::1754235029::1::::<><><>0<>0<>6a4ba3615f077f4eae4001f8d4a42416<>res://.godot/imported/Başlıksız21_20250802170821.png-dc7c991b9b6dcc134cb37663a07e6017.ctex::
@@ -18,86 +18,47 @@ Başlıksız22_20250802174129.png::CompressedTexture2D/CompressedTexture2D::5265
 Bella Ciao-8 Bit Version.ogg::AudioStreamOggVorbis/AudioStreamOggVorbis::5540655589198540093::1754235029::1754235029::1::::<><><>0<>0<>8d82dad4f5b355f96fa8da540219acaa<>res://.godot/imported/Bella Ciao-8 Bit Version.ogg-fc7ae5654a4e03693e1f8c9d5735659c.oggvorbisstr::
 burning_end_1.png::CompressedTexture2D/CompressedTexture2D::6775295178090603354::1754235029::1754235029::1::::<><><>0<>0<>21baa20c77b0a7abeaa2a4d7d2598523<>res://.godot/imported/burning_end_1.png-e361b9e4088ec4aba40195732dfc18e0.ctex::
 character.tscn::PackedScene/PackedScene::9216144821381366191::1754235029::0::1::::<><><>0<>0<><>::uid://bfc65lh6krpft::::res://Başlıksız21_20250802170821.png<>uid://cs86uhg3s6eyq::::res://oyuncu.gd<>uid://chapp070i3yjb::::res://Başlıksız22_20250802174129.png
-cop_konteyneri.gd::GDScript::2577045663200972390::1755999304::0::1::::<>Sprite2D<><>0<>0<><>::
+cop_konteyneri.gd::GDScript/GDScript::2577045663200972390::1755999304::0::1::::<>Sprite2D<><>0<>0<><>::
 DEÜ Çöp.png::CompressedTexture2D/CompressedTexture2D::1302137233241231047::1754235029::1754235029::1::::<><><>0<>0<>fe7e1a31cc2696e11a107ce401a1f2cb<>res://.godot/imported/DEÜ Çöp.png-49362d96197166489bffccd84ca27f5d.ctex::
 DEÜ Çöp.tscn::PackedScene/PackedScene::1890230418372249081::1754235029::0::1::::<><><>0<>0<><>::uid://ss1alsr14wyx::::res://DEÜ Çöp.png
-export_presets.cfg::TextFile::-1::1756077192::0::1::::<><><>0<>0<><>::
+export_presets.cfg::TextFile::-1::1756078865::0::1::::<><><>0<>0<><>::
 Fire.tscn::PackedScene/PackedScene::9083538069182239423::1754235029::0::1::::<><><>0<>0<><>::uid://c3saeexkjnd7w::::res://burning_end_1.png
 Game.gd::GDScript::5239756030243491424::1756071513::0::1::::<>Node<><>0<>0<><>::
-GameSpeed.gd::GDScript::5413970583991077048::1756037536::0::1::::<>Node<><>0<>0<><>::
+GameSpeed.gd::GDScript/GDScript::5413970583991077048::1756037536::0::1::::<>Node<><>0<>0<><>::
 havai_fisek.gd::GDScript/GDScript::7054503991601200039::1754235029::0::1::::<>AnimatedSprite2D<><>0<>0<><>::
-havai_fisek.tscn::PackedScene::2397548161734573545::1756037537::0::1::::<><><>0<>0<><>::uid://dvh5r66xikqh::::res://1.png<>uid://bydk5d62jpwc6::::res://2.png<>uid://chnto5qtgy5a5::::res://3.png<>uid://cfowqp6gju4we::::res://4.png<>uid://5x0y8oa0kory::::res://5.png<>uid://bk1ncq7fhqafi::::res://6.png<>uid://by2go01bq3chx::::res://7.png<>uid://c7riwdqgirlyd::::res://havai_fisek.gd
-konteyner.tscn::PackedScene::734894048540913789::1756037537::0::1::::<><><>0<>0<><>::uid://ss1alsr14wyx::::res://DEÜ Çöp.png<>uid://bcylth13v3w75::::res://cop_konteyneri.gd<>uid://d4hpr20aiswtw::::res://ODTÜ Çöp.png<>uid://cxjicpj1ch3os::::res://İÜ Çöp.png
+havai_fisek.tscn::PackedScene/PackedScene::2397548161734573545::1756037537::0::1::::<><><>0<>0<><>::uid://dvh5r66xikqh::::res://1.png<>uid://bydk5d62jpwc6::::res://2.png<>uid://chnto5qtgy5a5::::res://3.png<>uid://cfowqp6gju4we::::res://4.png<>uid://5x0y8oa0kory::::res://5.png<>uid://bk1ncq7fhqafi::::res://6.png<>uid://by2go01bq3chx::::res://7.png<>uid://c7riwdqgirlyd::::res://havai_fisek.gd
+konteyner.tscn::PackedScene/PackedScene::734894048540913789::1756037537::0::1::::<><><>0<>0<><>::uid://ss1alsr14wyx::::res://DEÜ Çöp.png<>uid://bcylth13v3w75::::res://cop_konteyneri.gd<>uid://d4hpr20aiswtw::::res://ODTÜ Çöp.png<>uid://cxjicpj1ch3os::::res://İÜ Çöp.png
 konteynerlar.tscn::PackedScene/PackedScene::5165979916860576823::1754235029::0::1::::<><><>0<>0<><>::uid://kp8uk3p5qxc4::::res://konteyner.tscn
-label.gd::GDScript::7597605132670674801::1756040850::0::1::::<>Control<><>0<>0<><>::
-label.tscn::PackedScene::5072807504121116720::1756071376::0::1::::<><><>0<>0<><>::uid://dgilpgfw3ovk0::::res://label.gd<>uid://dhxnhdc4wrp62::::res://metre.gd<>uid://cqcte6lsb6aa5::::res://PixelMillennium-1oBZ.ttf
+label.gd::GDScript/GDScript::7597605132670674801::1756040850::0::1::::<>Control<><>0<>0<><>::
+label.tscn::PackedScene::5072807504121116720::1756078379::0::1::::<><><>0<>0<><>::uid://dgilpgfw3ovk0::::res://label.gd<>uid://dhxnhdc4wrp62::::res://metre.gd<>uid://cqcte6lsb6aa5::::res://PixelMillennium-1oBZ.ttf
 metre.gd::GDScript/GDScript::7698866628359575549::1754235029::0::1::::<>Timer<><>0<>0<><>::
-node_2d.tscn::PackedScene::3156478994841586794::1756071512::0::1::::<><><>0<>0<><>::uid://t1164cecu2sa::::res://şehir/PNG/City2/Bright/back.png<>uid://d0ckhegweol5t::::res://yol.tscn<>uid://b2xi2skkue30n::::res://arkaplan.gd<>uid://b5fm8rmfesfrj::::res://şehir/PNG/City3/Bright/map_clean_resized.png<>uid://lak6m6vl6iv4::::res://şehir/PNG/City3/Bright/saat.png<>uid://buatgq0r3yt3a::::res://şehir/PNG/City1/Pale/wheels&hydrant.png<>uid://bon6xclmnjm0y::::res://şehir/PNG/City2/Bright/Sky.png<>uid://co70haquhbdye::::res://şehir/PNG/City1/Pale/wall1.png<>uid://bnkhryu24ja4l::::res://şehir/PNG/City2/Bright/vending resized.png<>uid://bmxeuwm3abaos::::res://obje.gd<>uid://dlg3fmpsdiicx::::res://polisarabası.tscn<>uid://d4kms84vxhcp8::::res://character.tscn<>uid://dhrfb7o8fw1p3::::res://polisdurma.tscn<>uid://t5kidv8ceydr::::res://poliskosma.tscn<>uid://cjohh2h1vy74::::res://barikat.tscn<>uid://kp8uk3p5qxc4::::res://konteyner.tscn<>uid://cejknsuskf1jo::::res://label.tscn<>uid://ck66118xge4mr::::res://Bella Ciao-8 Bit Version.ogg<>uid://cqcte6lsb6aa5::::res://PixelMillennium-1oBZ.ttf<>uid://c4f1p8xkd1rpc::::res://tutorial_text.gd
+node_2d.tscn::PackedScene::3156478994841586794::1756080031::0::1::::<><><>0<>0<><>::uid://t1164cecu2sa::::res://şehir/PNG/City2/Bright/back.png<>uid://d0ckhegweol5t::::res://yol.tscn<>uid://b2xi2skkue30n::::res://arkaplan.gd<>uid://b5fm8rmfesfrj::::res://şehir/PNG/City3/Bright/map_clean_resized.png<>uid://lak6m6vl6iv4::::res://şehir/PNG/City3/Bright/saat.png<>uid://buatgq0r3yt3a::::res://şehir/PNG/City1/Pale/wheels&hydrant.png<>uid://bon6xclmnjm0y::::res://şehir/PNG/City2/Bright/Sky.png<>uid://co70haquhbdye::::res://şehir/PNG/City1/Pale/wall1.png<>uid://bnkhryu24ja4l::::res://şehir/PNG/City2/Bright/vending resized.png<>uid://bmxeuwm3abaos::::res://obje.gd<>uid://dlg3fmpsdiicx::::res://polisarabası.tscn<>uid://d4kms84vxhcp8::::res://character.tscn<>uid://dhrfb7o8fw1p3::::res://polisdurma.tscn<>uid://t5kidv8ceydr::::res://poliskosma.tscn<>uid://cjohh2h1vy74::::res://barikat.tscn<>uid://kp8uk3p5qxc4::::res://konteyner.tscn<>uid://cejknsuskf1jo::::res://label.tscn<>uid://ck66118xge4mr::::res://Bella Ciao-8 Bit Version.ogg<>uid://cqcte6lsb6aa5::::res://PixelMillennium-1oBZ.ttf<>uid://c4f1p8xkd1rpc::::res://tutorial_text.gd
 obje.gd::GDScript::3276447254865616118::1756066323::0::1::::<>Timer<><>0<>0<><>::
 ODTÜ Çöp.png::CompressedTexture2D/CompressedTexture2D::9210131731010529476::1754235029::1754235029::1::::<><><>0<>0<>783c87ddd3c8613d30a7933ac0e21571<>res://.godot/imported/ODTÜ Çöp.png-bf4b5eb9ac4cae054f3e5c9fd3d907e1.ctex::
 ODTÜ Çöp.tscn::PackedScene/PackedScene::2423612515485236039::1754235029::0::1::::<><><>0<>0<><>::uid://d4hpr20aiswtw::::res://ODTÜ Çöp.png
-oyuncu.gd::GDScript::6106283339638363240::1755988426::0::1::::<>CharacterBody2D<><>0<>0<><>::
+oyuncu.gd::GDScript/GDScript::6106283339638363240::1755988426::0::1::::<>CharacterBody2D<><>0<>0<><>::
 pikachu.png::CompressedTexture2D/CompressedTexture2D::7250595385610745537::1754235029::1754235029::1::::<><><>0<>0<>66becdea0f29a4551ec3abb488f984a1<>res://.godot/imported/pikachu.png-389683407c83ae3fc6ca1c18a4124495.ctex::
-Pikachu.tscn::PackedScene::2154199092157536663::1756037538::0::1::::<><><>0<>0<><>::uid://dbkiinflyae5v::::res://pikachu.png
+Pikachu.tscn::PackedScene/PackedScene::2154199092157536663::1756037538::0::1::::<><><>0<>0<><>::uid://dbkiinflyae5v::::res://pikachu.png
 PixelMillennium-1oBZ.ttf::FontFile/FontFile::5901154033178117670::1756040130::1756040130::1::::<><><>0<>0<>45dbdc03ebbedfd233a130c1b1c892a1<>res://.godot/imported/PixelMillennium-1oBZ.ttf-48fdc296c0579aad7a0eaa4872a39f83.fontdata::
 PixelOperator8-Bold.ttf::FontFile/FontFile::6451953845592916915::1754235029::1754235029::1::::<><><>0<>0<>b8157da7643a1a9e07e3b317cff0b318<>res://.godot/imported/PixelOperator8-Bold.ttf-ff90df5798b9fe83cdc81f461b206f3a.fontdata::
 PixelOperator8.ttf::FontFile/FontFile::8713072446901697390::1754235029::1754235029::1::::<><><>0<>0<>54dc4a6cf748032d605e76f00369bb61<>res://.godot/imported/PixelOperator8.ttf-d2482ba7dcbdcfd4bed4294503670123.fontdata::
-polis.gd::GDScript::8120736066705450747::1755999268::0::1::::<>Area2D<><>0<>0<><>::
+polis.gd::GDScript/GDScript::8120736066705450747::1755999268::0::1::::<>Area2D<><>0<>0<><>::
 polisaraba.png::CompressedTexture2D/CompressedTexture2D::7078376792322504528::1754235029::1754235029::1::::<><><>0<>0<>86e2c771a3ba8cffa9bd48adad6da576<>res://.godot/imported/polisaraba.png-6c95fc2febc55c86b749c157cab08a48.ctex::
-polisarabası.tscn::PackedScene::7945435256663441899::1756037537::0::1::::<><><>0<>0<><>::uid://dnx0lpck6penj::::res://polis.gd<>uid://c7323jloyj85i::::res://polisaraba.png
+polisarabası.tscn::PackedScene/PackedScene::7945435256663441899::1756037537::0::1::::<><><>0<>0<><>::uid://dnx0lpck6penj::::res://polis.gd<>uid://c7323jloyj85i::::res://polisaraba.png
 polisdurma.png::CompressedTexture2D/CompressedTexture2D::4334821875555524827::1754235029::1754235029::1::::<><><>0<>0<>97a941459c5a6ad07f4d2500f5feeb4d<>res://.godot/imported/polisdurma.png-be6bb3cfbdac236ddfd566a9028e797d.ctex::
-polisdurma.tscn::PackedScene::7685985453003695650::1756037537::0::1::::<><><>0<>0<><>::uid://b2025ayb6bfuh::::res://polisdurma.png<>uid://dnx0lpck6penj::::res://polis.gd
+polisdurma.tscn::PackedScene/PackedScene::7685985453003695650::1756037537::0::1::::<><><>0<>0<><>::uid://b2025ayb6bfuh::::res://polisdurma.png<>uid://dnx0lpck6penj::::res://polis.gd
 poliskosma.png::CompressedTexture2D/CompressedTexture2D::4076134636649023659::1754235029::1754235029::1::::<><><>0<>0<>85f3568182ba4a2a1b186983767c4759<>res://.godot/imported/poliskosma.png-895000df6ddb9572e85a1eeb186edbaf.ctex::
-poliskosma.tscn::PackedScene::1396141009536482295::1756037538::0::1::::<><><>0<>0<><>::uid://dnx0lpck6penj::::res://polis.gd<>uid://bycrlvjn5r1o6::::res://poliskosma.png
+poliskosma.tscn::PackedScene/PackedScene::1396141009536482295::1756037538::0::1::::<><><>0<>0<><>::uid://dnx0lpck6penj::::res://polis.gd<>uid://bycrlvjn5r1o6::::res://poliskosma.png
 skor_ekrani.tscn::PackedScene/PackedScene::8269983597908541381::1754235029::0::1::::<><><>0<>0<><>::
-timer.gd::GDScript::1997925655355914939::1756036603::0::1::::<>Timer<><>0<>0<><>::
+timer.gd::GDScript/GDScript::1997925655355914939::1756036603::0::1::::<>Timer<><>0<>0<><>::
 tutorial_text.gd::GDScript::6820246919640403268::1756069162::0::1::::<>Label<><>0<>0<><>::
 yol.tscn::PackedScene/PackedScene::8918731788390946987::1754235029::0::1::::<><><>0<>0<><>::uid://c1kil3vs6ae0c::::res://şehir/PNG/City2/Bright/road&lamps.png<>uid://b2xi2skkue30n::::res://arkaplan.gd
 İÜ Çöp.png::CompressedTexture2D/CompressedTexture2D::6406254281315220022::1754235029::1754235029::1::::<><><>0<>0<>e56b6b49a8380b8544e83d1db215e14f<>res://.godot/imported/İÜ Çöp.png-532f9dc79c859063b80505725c3a91af.ctex::
-İÜ Çöp.tscn::PackedScene::132437857992262230::1756037538::0::1::::<><><>0<>0<><>::uid://cxjicpj1ch3os::::res://İÜ Çöp.png
-::res://MoltenVK.xcframework/::1756077188
-::res://MoltenVK.xcframework/ios-arm64/::1756077188
-::res://MoltenVK.xcframework/ios-arm64_x86_64-maccatalyst/::1756077188
-::res://MoltenVK.xcframework/ios-arm64_x86_64-simulator/::1756077188
-::res://TipliOgrencilerKampOyun/::1756077185
-::res://TipliOgrencilerKampOyun/dylibs/::1756077185
-::res://TipliOgrencilerKampOyun/en.lproj/::1756077185
-::res://TipliOgrencilerKampOyun/Images.xcassets/::1756077188
-::res://TipliOgrencilerKampOyun/Images.xcassets/AppIcon.appiconset/::1756077188
-Contents.json::JSON::-1::1756077188::0::1::::<><><>0<>0<><>::
-Icon-40.png::CompressedTexture2D::2012250519174884090::1756077188::1756078081::1::::<><><>0<>0<>a872af503ce96fddbe0d53d9a9070438<>res://.godot/imported/Icon-40.png-29dc99d1cacafde08fd4107dc29ee620.ctex::
-Icon-58.png::CompressedTexture2D::8281824346371512214::1756077188::1756078081::1::::<><><>0<>0<>993d20c1dd1eb82f9646f335c29ce13c<>res://.godot/imported/Icon-58.png-e8e64c5729e4ad39f5dc3b2803f28998.ctex::
-Icon-60.png::CompressedTexture2D::2444886838878923976::1756077188::1756078081::1::::<><><>0<>0<>33f79c941c7a408acae2880119d54184<>res://.godot/imported/Icon-60.png-4c8bef35be21e29319e71cc0812d4dd9.ctex::
-Icon-76.png::CompressedTexture2D::3404134714433795861::1756077188::1756078081::1::::<><><>0<>0<>cb3bf785b5496a36b438eb4d38d6dce5<>res://.godot/imported/Icon-76.png-c25bff48808dbbd6845734b9b0d26655.ctex::
-Icon-80.png::CompressedTexture2D::6768402644691767606::1756077188::1756078081::1::::<><><>0<>0<>4e14a5abbfaf6f2f415533418551fcc8<>res://.godot/imported/Icon-80.png-873f1ed83d12a383c674b13bee98be56.ctex::
-Icon-87.png::CompressedTexture2D::7669033116211590067::1756077188::1756078081::1::::<><><>0<>0<>5c04f8dde1f74c304cb88036a99bf6cd<>res://.godot/imported/Icon-87.png-15a3f1159e7018f495c7ed3168356a01.ctex::
-Icon-114.png::CompressedTexture2D::6448658011058004001::1756077188::1756078081::1::::<><><>0<>0<>0ea9692b3cfcb374f61ea970000c9905<>res://.godot/imported/Icon-114.png-4f5f6ee9af585c17d204f224d0f11bf8.ctex::
-Icon-120-1.png::CompressedTexture2D::4054527377304299207::1756077188::1756078081::1::::<><><>0<>0<>c96ca674874f26419b0fe7d603465997<>res://.godot/imported/Icon-120-1.png-ccef187a06fcc49de1e4bf63d2c6b737.ctex::
-Icon-120.png::CompressedTexture2D::4968139527356259319::1756077188::1756078081::1::::<><><>0<>0<>6864bf698a281c699c93dc1058472567<>res://.godot/imported/Icon-120.png-3dbeef8664878ec4a7851ed6c0fa699b.ctex::
-Icon-128.png::CompressedTexture2D::7784085054856577086::1756077188::1756078081::1::::<><><>0<>0<>999244fd44809228b25bae68d6a04df8<>res://.godot/imported/Icon-128.png-1fe3a4ccfb9474db5169fe96083dfe1f.ctex::
-Icon-136.png::CompressedTexture2D::9042744476878279544::1756077188::1756078081::1::::<><><>0<>0<>a777284fcb4e205f0f6ec299ada41045<>res://.godot/imported/Icon-136.png-581b38da9e5df52ade75a0e89b3c19ed.ctex::
-Icon-152.png::CompressedTexture2D::2338385198173861856::1756077188::1756078081::1::::<><><>0<>0<>46589181cfda94a92183bb97a8c9ebf0<>res://.godot/imported/Icon-152.png-5c1a5224096b1cb394e24105274cdf28.ctex::
-Icon-167.png::CompressedTexture2D::8972553487316136606::1756077188::1756078081::1::::<><><>0<>0<>e6464428d98f4469a32ef5b5fc0d6c5f<>res://.godot/imported/Icon-167.png-ab0821a4cdbd727c09bdf60913c36105.ctex::
-Icon-180.png::CompressedTexture2D::8122800304350402117::1756077188::1756078081::1::::<><><>0<>0<>52d992a6ccb28b1b159b190216cef3d8<>res://.godot/imported/Icon-180.png-81b360829407cccc5e9d43af14bfe325.ctex::
-Icon-192.png::CompressedTexture2D::5546361429036689263::1756077188::1756078081::1::::<><><>0<>0<>e883b79d1d0496ef149816cc676102a0<>res://.godot/imported/Icon-192.png-1af8d9333b8e62a0ade1e2fd1f3516d0.ctex::
-Icon-1024.png::CompressedTexture2D::1564330714002916931::1756077188::1756078081::1::::<><><>0<>0<>8b754fe388964ebba5618840d5d3df22<>res://.godot/imported/Icon-1024.png-855ac3756a791d7330212e135e616948.ctex::
-::res://TipliOgrencilerKampOyun/Images.xcassets/SplashImage.imageset/::1756077188
-Contents.json::JSON::-1::1756077185::0::1::::<><><>0<>0<><>::
-splash@2x.png::CompressedTexture2D::7388402883917584046::1756077188::1756078081::1::::<><><>0<>0<>5cab3d1f4c4c7985d71eb4a30406b422<>res://.godot/imported/splash@2x.png-285aaafb0dc17ed7e2fe8adddd6da13c.ctex::
-splash@3x.png::CompressedTexture2D::2707012799732370242::1756077188::1756078081::1::::<><><>0<>0<>3a960a8d1b3e06d88739b7ffb358f3ca<>res://.godot/imported/splash@3x.png-9bcb915b001f0f60e454bd01fae4145d.ctex::
-::res://TipliOgrencilerKampOyun.xcframework/::1756077185
-::res://TipliOgrencilerKampOyun.xcframework/ios-arm64/::1756077186
-::res://TipliOgrencilerKampOyun.xcframework/ios-arm64_x86_64-simulator/::1756077186
-::res://TipliOgrencilerKampOyun.xcodeproj/::1756077188
-::res://TipliOgrencilerKampOyun.xcodeproj/project.xcworkspace/::1756077192
-::res://TipliOgrencilerKampOyun.xcodeproj/project.xcworkspace/xcshareddata/::1756077192
-::res://TipliOgrencilerKampOyun.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/::1756077192
-::res://TipliOgrencilerKampOyun.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/configuration/::1756077192
-::res://TipliOgrencilerKampOyun.xcodeproj/xcshareddata/::1756077185
-::res://TipliOgrencilerKampOyun.xcodeproj/xcshareddata/xcschemes/::1756077185
-::res://ui/::1756071376
-GameOverOverlay.gd::GDScript::7857277903938302581::1755990733::0::1::::<>CanvasLayer<><>0<>0<><>::
-GameOverOverlay.tscn::PackedScene::191996460609725459::1756071376::0::1::::<><><>0<>0<><>::uid://dj7ehpkdr2lwv::::res://ui/GameOverOverlay.gd<>uid://cqcte6lsb6aa5::::res://PixelMillennium-1oBZ.ttf
+İÜ Çöp.tscn::PackedScene/PackedScene::132437857992262230::1756037538::0::1::::<><><>0<>0<><>::uid://cxjicpj1ch3os::::res://İÜ Çöp.png
+::res://TipliOgrencilerKampOyun/::1756129632
+::res://ui/::1756078379
+GameOverOverlay.gd::GDScript/GDScript::7857277903938302581::1755990733::0::1::::<>CanvasLayer<><>0<>0<><>::
+GameOverOverlay.tscn::PackedScene::191996460609725459::1756078379::0::1::::<><><>0<>0<><>::uid://dj7ehpkdr2lwv::::res://ui/GameOverOverlay.gd<>uid://cqcte6lsb6aa5::::res://PixelMillennium-1oBZ.ttf
 ::res://vfx/::1756039259
 VFXSpawner.gd::GDScript/GDScript::703832609372970654::1756039259::0::1::::<>Node<><>0<>0<><>::
 ::res://şehir/::1754235029
