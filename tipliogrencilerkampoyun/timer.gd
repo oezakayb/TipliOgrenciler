@@ -1,9 +1,9 @@
 extends Timer
-var distance := 0  
 
-func _ready():
-	$DistanceTimer.timeout.connect(_on_DistanceTimer_timeout)
+func _ready() -> void:
+	timeout.connect(_tick)
+	start()
 
-func _on_DistanceTimer_timeout():
-	distance += 1
-	$Metre.text = str(distance) + " Direniş"
+func _tick() -> void:
+	# however you were counting distance before:
+	Game.add_meter()

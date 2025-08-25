@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=3 uid="uid://dlg3fmpsdiicx"]
+[gd_scene load_steps=9 format=3 uid="uid://dlg3fmpsdiicx"]
 
 [ext_resource type="Script" uid="uid://dnx0lpck6penj" path="res://polis.gd" id="1_m71hs"]
 [ext_resource type="Texture2D" uid="uid://c7323jloyj85i" path="res://polisaraba.png" id="1_uj5l1"]
@@ -33,12 +33,16 @@ animations = [{
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_uj5l1"]
-size = Vector2(418, 280)
+size = Vector2(318.667, 104)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_m71hs"]
+size = Vector2(473.333, 120.667)
 
 [node name="polisarabasi" type="Area2D"]
 position = Vector2(0, -73)
 scale = Vector2(1.5, 1.5)
 script = ExtResource("1_m71hs")
+speed_layer = "polisarabasi"
 hareket_hizi = 20.0
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
@@ -50,7 +54,11 @@ frame_progress = 0.235508
 flip_h = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(14, -30)
+position = Vector2(79.3333, -104)
 shape = SubResource("RectangleShape2D_uj5l1")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="."]
+position = Vector2(20.6667, 10.3333)
+shape = SubResource("RectangleShape2D_m71hs")
 
 [connection signal="body_entered" from="." to="." method="carpinca"]

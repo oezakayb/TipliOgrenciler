@@ -1,8 +1,8 @@
 [gd_scene load_steps=4 format=3 uid="uid://cejknsuskf1jo"]
 
 [ext_resource type="Script" uid="uid://dgilpgfw3ovk0" path="res://label.gd" id="1_i3osk"]
-[ext_resource type="Script" path="res://metre.gd" id="2_02dvo"]
-[ext_resource type="FontFile" uid="uid://dwexba6ftkkda" path="res://PixelOperator8.ttf" id="2_06tve"]
+[ext_resource type="Script" uid="uid://dhxnhdc4wrp62" path="res://metre.gd" id="2_02dvo"]
+[ext_resource type="FontFile" uid="uid://cqcte6lsb6aa5" path="res://PixelMillennium-1oBZ.ttf" id="3_i3osk"]
 
 [node name="Control" type="Control"]
 layout_mode = 3
@@ -23,5 +23,5 @@ offset_left = -97.0
 offset_top = -122.0
 offset_right = -42.0
 offset_bottom = -99.0
-theme_override_fonts/font = ExtResource("2_06tve")
-theme_override_font_sizes/font_size = 50
+theme_override_fonts/font = ExtResource("3_i3osk")
+theme_override_font_sizes/font_size = 80

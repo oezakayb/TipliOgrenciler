@@ -15,11 +15,25 @@ run/main_scene="uid://bk8a0ost44qic"
 config/features=PackedStringArray("4.4", "Mobile")
 config/icon="res://icon.svg"
 
+[autoload]
+
+Game="*res://Game.gd"
+GameSpeed="*res://GameSpeed.gd"
+
 [display]
 
+window/size/viewport_width=1280
+window/size/viewport_height=720
+window/size/mode=3
 window/size/resizable=false
+window/stretch/mode="canvas_items"
+
+[input_devices]
+
+pointing/emulate_touch_from_mouse=true
 
 [rendering]
 
 textures/canvas_textures/default_texture_filter=0
 renderer/rendering_method="mobile"
+textures/vram_compression/import_etc2_astc=true

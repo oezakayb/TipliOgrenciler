@@ -1,17 +1,15 @@
 extends Control
 
-var distance : int = 0
-
 @onready var direnis_label = $Metre/DirenisLabel
 @onready var metre_timer = $Metre
 
 func _ready():
 	metre_timer.timeout.connect(_on_DistanceTimer_timeout)
-	update_label()
+	_update_label()
 
 func _on_DistanceTimer_timeout():
-	distance += 1
-	update_label()
+	Game.add_meter()
+	_update_label()
 
-func update_label():
-	direnis_label.text = "DIRENIS: " + str(distance) + "m "
+func _update_label():
+	direnis_label.text = "DİRENİŞ: %dm" % Game.skor
